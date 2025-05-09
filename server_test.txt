@@ -1,0 +1,11 @@
+Trivial File Transfer Protocol (TFTP) is a simple, 
+lightweight file transfer protocol used for transferring files between devices over a network.
+It operates on UDP port 69 and is commonly used in scenarios where a minimalistic and efficient file transfer method is required.
+Trivial File Transfer Protocol (TFTP) is a lightweight file transfer protocol that operates
+over UDP port 69. It is designed for simple and efficient file transfers, primarily used in scenarios where minimal overhead is req
+Unlike FTP, TFTP lacks authentication 
+scenarios where minimal overhead is required. Unlike FTP, TFTP lacks authentication and encryption, making it unsuitable for secure file transfers but ideal
+for network booting, firmware updates, and configuration file transfers. It follows a block-based
+blocks (typically 512 bytes), and each block must be acknowledged before the next one is sent. Due to its simplicity, TFTP is commonly used in PXE boot environments 
+to load operating systems onto diskle and in networking devices like routers and switches for firmware upgrades. However, its lack of security features and reliance 
+on UDP make it vulnerable to packet loss and unauthorized access, limiting its use in modern secure environments.onfi
